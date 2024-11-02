@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .header,
+      .footer {
+        background-color: #1e90ff;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        border-radius: 0.5rem;
+        margin-bottom: 1rem;
+      }
+
+      .container {
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      .main {
+        background-color: #3cb371;
+        flex: 1;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; /* still unsure, will ask lecturer more about grid. */
+        gap: 1rem;
+        padding: 1rem;
+        border-radius: 0.5rem;
+      }
+
+      .item {
+        background-color: #2f8d59;
+        padding: 20px;
+        text-align: center;
+        border-radius: 0.5rem;
+        color: white;
+      }
+
+      .sidebar {
+        background-color: #ff6347;
+        width: 250px;
+        text-align: center;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        color: white;
+      }
+
+      .footer {
+        background-color: #4169e1;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        border-radius: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">Header</header>
+    <div class="container">
+      <main class="main">
+        <div class="item">item</div>
+        <div class="item">item</div>
+        <div class="item">item</div>
+        <div class="item">item</div>
+        <div class="item">item</div>
+        <div class="item">item</div>
+        <div class="item">item</div>
+        <div class="item">item</div>
+        <div class="item">item</div>
+      </main>
+      <aside class="sidebar">Sidebar</aside>
+    </div>
+    <footer class="footer">Footer</footer>
+  </body>
+</html>
